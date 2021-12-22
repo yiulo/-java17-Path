@@ -22,8 +22,8 @@ Path p = new Path(Main.class);
   
 一般想法与教程：  
 1、导入图片：  
-    Path p = new Path(Main.class);  
-    BufferedImage bimg = Image.read(new URL(p.getURLPath("./images/xxx.png")));  
+\    Path p = new Path(Main.class);  
+\    BufferedImage bimg = Image.read(new URL(p.getURLPath("./images/xxx.png")));  
     
 2、获取jar内文件数据：  
     Path p = new Path(Main.class);  
