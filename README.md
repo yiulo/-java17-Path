@@ -21,18 +21,18 @@ Path p = new Path(Main.class);
 (byte[]) getUrlData(URL url); 获取url文件数据，url为本地文件  
   
 一般想法与教程：  
-1、__导入图片：  
-    _Path p = new Path(Main.class);  
+1、导入图片：  
+    Path p = new Path(Main.class);  
     BufferedImage bimg = Image.read(new URL(p.getURLPath("./images/xxx.png")));  
-    ___  
-2、__获取jar内文件数据：  
-    _Path p = new Path(Main.class);  
+    
+2、获取jar内文件数据：  
+    Path p = new Path(Main.class);  
     byte[] data = p.getUrlData(new URL(p.getURLPath("./images/xxx.png")));  
-    ___  
-3、__创建/解包/释放一些缓存数据：  
-    _Path p = new Path(Main.class);  
+    
+3、创建/解包/释放一些缓存数据：  
+    Path p = new Path(Main.class);  
     File f = new File(p.getClassFolderPath(Main.class) + "/xxx.png");  
     f.createNewFile();  
-    ___  
+    
   
 如有建议/疑问，欢迎留言  
