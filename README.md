@@ -6,7 +6,7 @@
 主要目前使用java17版，idea在同项目下不同版本模块导出jar功能暂不清楚
 
 方法：
-Path p = new Path(Main.class);/n
+Path p = new Path(Main.class);
 (void) setClass(Class \_class); 不建议使用，用于修改p对象所指定class
 (void) setDefaultEncode(String encode); 设置默认字符编码(默认utf-8)，可用于减少不必要代码
 (boolean) isJAR(); 返回当前class文件是否于jar内
