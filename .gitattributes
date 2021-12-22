@@ -1,2 +1,6 @@
-*.cs linguist-language=java
-*.ico linguist-language=java
+*.js linguist-language=java
+*.css linguist-language=java
+*.html linguist-language=java
+*.java linguist-language=java
+*.jar linguist-language=java
+*.class linguist-language=java
